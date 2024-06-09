@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Upload Form</title>
+</head>
+<body>
+<h1>Content Upload Form</h1>
+<form method="post" action="/upload" enctype="multipart/form-data">
+    <label>Image File:</label>
+    <input type="file" name="image"><br><br>
+
+    <label>Title:</label>
+    <input type="text" name="title"><br><br>
+
+    <label>Short Description:</label>
+    <textarea name="description"></textarea><br><br>
+
+    <label>URL to Landing Page:</label>
+    <input type="text" name="url"><br><br>
+
+</form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Upload Form</title>
+</head>
+<body>
+<h1>Content Upload Form</h1>
+<form method="post" action="/upload" enctype="multipart/form-data">
+    <label for="image">Image File:</label>
+    <input type="file" name="image"><br><br>
+
+    <label for="title">Title:</label>
+    <input type="text" name="title"><br><br>
+
+    <label for="description">Short Description:</label>
+    <textarea name="description"></textarea><br><br>
+
+    <label for="url">URL to Landing Page:</label>
+    <input type="text" name="url"><br><br>
+
+    <h2>Promotion Settings:</h2>
+    <label for="keywords">Keywords (comma separated):</label>
+    <input type="text" name="keywords"><br><br>
+
+    <label for="negativeKeywords">Negative Keywords (comma separated):</label>
+    <input type="text" name="negativeKeywords"><br><br>
+
+    <!-- 添加其他筛选条件的输入 -->
+    <label for="otherKeywords">Other Keywords (comma separated):</label>
+    <input type="text" name="otherKeywords"><br><br>
+    <br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button type="submit">Upload Content</button>
+</form>
+</body>
+</html>
